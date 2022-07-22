@@ -1,0 +1,41 @@
+name: Make EPG
+on:
+  schedule:    
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Crafting EPG
+      run: |
+        echo Crafting EPG
+        exec 3>&1 &>/dev/null
+        sudo apt -y install xmltv
+        wget http://webgrabplus.com/sites/default/files/download/SW/V3.2.0/WebGrabPlus_V3.2_install.tar.gz
+        tar -zxvf WebGrabPlus_V3.2_install.tar.gz
+        cd .wg++
+        ./install.sh
+        mv ../1.xml WebGrab++.config.xml
+        mv ../2.xml WebGrab++.config2.xml
+        ./run.sh || mv WebGrab++.config.xml WebGrab++.config_og.xml && mv WebGrab++.config2.xml WebGrab++.config.xml && ./run.sh
+        mv /home/runner/work/fictional-pancake/fictional-pancake/.wg++/guide.xml /home/runner/work/fictional-pancake/fictional-pancake/.wg++/1.xml
+    - name: Sending EPG
+      uses: actions/upload-artifact@master
+      with:
+        name: 1.xml
+        path: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/1.xml
+    - name: Deploying EPG
+      run: |
+        echo Deploying EPG
+        exec 3>&1 &>/dev/null
+        cd /home/runner/work/fictional-pancake/fictional-pancake/.wg++/
+        git init
+        git config --local user.name "actions"
+        git config --local user.email "action@github.com"
+        git checkout -b main
+        git add .
+        git commit -m "The dragon is hunting."
+        git remote add origin "https://${{ github.actor }}:${{ secrets.JAPAN }}@github.com/${{ github.repository }}"
+        git push -f -u origin main

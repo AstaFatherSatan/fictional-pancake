@@ -1,0 +1,112 @@
+﻿<?xml version="1.0"?>
+<settings>
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <license wg-username="ferryneil" registered-email="neilneilsmith@hotmail.com" password="123dc76d">f</license>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>2</timespan>
+  <update>f</update>
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+    <channel update="i" site="skyperfect.co.jp" site_id="BS193" xmltv_id="BS193ＷＯＷＯＷシネマ">BS193ＷＯＷＯＷシネマ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS200" xmltv_id="BS200スターチャンネル１">BS200スターチャンネル１</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS201" xmltv_id="BS201スターチャンネル２">BS201スターチャンネル２</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS202" xmltv_id="BS202スターチャンネル３">BS202スターチャンネル３</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS252" xmltv_id="BS252シネフィルWOWOW">BS252シネフィルWOWOW</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS255" xmltv_id="BS255日本映画専門チャンネル">BS255日本映画専門チャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS218" xmltv_id="CS218東映チャンネル">CS218東映チャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS219" xmltv_id="CS219衛星劇場">CS219衛星劇場</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS223" xmltv_id="CS223映画・チャンネルNECO">CS223映画・チャンネルNECO</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS227" xmltv_id="CS227ザ・シネマ">CS227ザ・シネマ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS240" xmltv_id="CS240ムービープラス">CS240ムービープラス</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS242" xmltv_id="BS242J SPORTS 1">BS242J SPORTS 1</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS243" xmltv_id="BS243J SPORTS 2">BS243J SPORTS 2</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS244" xmltv_id="BS244J SPORTS 3">BS244J SPORTS 3</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS245" xmltv_id="BS245J SPORTS 4">BS245J SPORTS 4</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS250" xmltv_id="CS250スカイA">CS250スカイA</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS254" xmltv_id="CS254GAORA SPORTS">CS254GAORA SPORTS</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS257" xmltv_id="CS257日テレジータス">CS257日テレジータス</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS262" xmltv_id="CS262ゴルフネットワーク">CS262ゴルフネットワーク</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS800" xmltv_id="CS800スポーツライブ＋">CS800スポーツライブ＋</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS321" xmltv_id="CS321100%ヒッツ！スペースシャワーTV プラス">CS321100%ヒッツ！スペースシャワーTV プラス</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS322" xmltv_id="CS322音楽・ライブ！スペースシャワーＴＶ">CS322音楽・ライブ！スペースシャワーＴＶ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS323" xmltv_id="CS323MTV">CS323MTV</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS324" xmltv_id="CS324ミュージック・エア">CS324ミュージック・エア</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS325" xmltv_id="CS325MUSIC ON! TV（エムオン!）">CS325MUSIC ON! TV（エムオン!）</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS329" xmltv_id="CS329歌謡ポップスチャンネル">CS329歌謡ポップスチャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS236" xmltv_id="BS236アニマックス">BS236アニマックス</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS330" xmltv_id="CS330キッズステーション テレビアニメ･劇場版･ＯＶＡ">CS330キッズステーション テレビアニメ･劇場版･ＯＶＡ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS331" xmltv_id="CS331海外アニメ！カートゥーン ネットワーク">CS331海外アニメ！カートゥーン ネットワーク</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS333" xmltv_id="CS333アニメシアターX(AT-X)">CS333アニメシアターX(AT-X)</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS191" xmltv_id="BS191ＷＯＷＯＷプライム">BS191ＷＯＷＯＷプライム</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS192" xmltv_id="BS192ＷＯＷＯＷライブ">BS192ＷＯＷＯＷライブ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS241" xmltv_id="BS241ＢＳスカパー！">BS241ＢＳスカパー！</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS256" xmltv_id="BS256ディズニー･チャンネル">BS256ディズニー･チャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS296" xmltv_id="CS296ＴＢＳチャンネル１ 最新ドラマ・音楽・映画">CS296ＴＢＳチャンネル１ 最新ドラマ・音楽・映画</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS297" xmltv_id="CS297ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ">CS297ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS298" xmltv_id="CS298テレ朝チャンネル１ドラマ・バラエティ・アニメ">CS298テレ朝チャンネル１ドラマ・バラエティ・アニメ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS299" xmltv_id="CS299テレ朝チャンネル２ニュース・情報・スポーツ">CS299テレ朝チャンネル２ニュース・情報・スポーツ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS300" xmltv_id="CS300日テレプラスドラマ・アニメ・音楽ライブ">CS300日テレプラスドラマ・アニメ・音楽ライブ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS301" xmltv_id="CS301エンタメ～テレ☆シネドラバラエティ">CS301エンタメ～テレ☆シネドラバラエティ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS305" xmltv_id="CS305チャンネル銀河歴史ドラマ・サスペンス・日本のうた">CS305チャンネル銀河歴史ドラマ・サスペンス・日本のうた</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS307" xmltv_id="CS307フジテレビＯＮＥスポーツ・バラエティ">CS307フジテレビＯＮＥスポーツ・バラエティ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS308" xmltv_id="CS308フジテレビＴＷＯドラマ・アニメ">CS308フジテレビＴＷＯドラマ・アニメ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS309" xmltv_id="CS309フジテレビＮＥＸＴライブ・プレミアム">CS309フジテレビＮＥＸＴライブ・プレミアム</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS801" xmltv_id="CS801スカチャン1">CS801スカチャン1</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS310" xmltv_id="CS310スーパー！ドラマＴＶ">CS310スーパー！ドラマＴＶ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS311" xmltv_id="CS311ＡＸＮ 海外ドラマ">CS311ＡＸＮ 海外ドラマ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS312" xmltv_id="CS312FOX">CS312FOX</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS314" xmltv_id="CS314女性チャンネル♪LaLa TV">CS314女性チャンネル♪LaLa TV</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS316" xmltv_id="CS316AXNミステリー">CS316AXNミステリー</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS317" xmltv_id="CS317KBS World">CS317KBS World</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS318" xmltv_id="CS318Ｍｎｅｔ">CS318Ｍｎｅｔ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS290" xmltv_id="CS290TAKARAZUKA SKY STAGE">CS290TAKARAZUKA SKY STAGE</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS292" xmltv_id="CS292時代劇専門チャンネル">CS292時代劇専門チャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS293" xmltv_id="CS293ファミリー劇場">CS293ファミリー劇場</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS294" xmltv_id="CS294ホームドラマチャンネル韓流・時代劇・国内ドラマ">CS294ホームドラマチャンネル韓流・時代劇・国内ドラマ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS295" xmltv_id="CS295MONDO TV">CS295MONDO TV</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS340" xmltv_id="CS340ディスカバリーチャンネル">CS340ディスカバリーチャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS341" xmltv_id="CS341アニマルプラネット">CS341アニマルプラネット</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS342" xmltv_id="CS342ヒストリーチャンネル 日本・世界の歴史＆エンタメ">CS342ヒストリーチャンネル 日本・世界の歴史＆エンタメ</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS343" xmltv_id="CS343ナショナル ジオグラフィック 未知の自然・宇宙・歴史">CS343ナショナル ジオグラフィック 未知の自然・宇宙・歴史</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS349" xmltv_id="CS349日テレNEWS24">CS349日テレNEWS24</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS351" xmltv_id="CS351TBS NEWS">CS351TBS NEWS</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS251" xmltv_id="BS251ＢＳ釣りビジョン">BS251ＢＳ釣りビジョン</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS339" xmltv_id="CS339ディズニージュニア">CS339ディズニージュニア</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS363" xmltv_id="CS363囲碁・将棋チャンネル">CS363囲碁・将棋チャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="BS234" xmltv_id="BS234グリーンチャンネル">BS234グリーンチャンネル</channel>
+    <channel update="i" site="skyperfect.co.jp" site_id="CS055" xmltv_id="CS055ショップチャンネル">CS055ショップチャンネル</channel>
+    <channel update="i" site="transvision.co.id" site_id="ANI" xmltv_id="AnimaxAsia">AnimaxAsia</channel>
+    <channel update="i" site="transvision.co.id" site_id="ANIP" xmltv_id="AniPlusAsia">AniPlusAsia</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="anixe" xmltv_id="ANIXE">ANIXE</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_101_4" xmltv_id="ＮＨＫＢＳ１">ＮＨＫＢＳ１</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_103_4" xmltv_id="ＮＨＫＢＳプレミアム">ＮＨＫＢＳプレミアム</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_161_4" xmltv_id="ＢＳ－ＴＢＳ">ＢＳ－ＴＢＳ</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_23608_32391" xmltv_id="TOKYOMX">TOKYOMX</channel>
+    <channel update="i" site="tvkingdom.jp" site_id="23##10##101048" xmltv_id="ＴＢＳ">ＴＢＳ</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1064_32741" xmltv_id="テレビ朝日">テレビ朝日</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1072_32742" xmltv_id="テレビ東京">テレビ東京</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_171_4" xmltv_id="BSテレ東">BSテレ東</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1056_32740" xmltv_id="フジテレビ">フジテレビ</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="120_145_65406" xmltv_id="釣りビジョンHD">釣りビジョンHD</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_181_4" xmltv_id="ＢＳフジ・181">ＢＳフジ・181</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_151_4" xmltv_id="ＢＳ朝日１">ＢＳ朝日１</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="3_141_4" xmltv_id="ＢＳ日テレ">ＢＳ日テレ</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="120_038_65406" xmltv_id="NHKワールド JAPAN">NHKワールド JAPAN</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1032_32737" xmltv_id="NHK東京教育">NHK東京教育</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1024_32736" xmltv_id="NHK東京総合">NHK東京総合</channel>
+    <channel update="i" site="tvguide.myjcom.jp" site_id="2_1040_32738" xmltv_id="日本テレビ">日本テレビ</channel>
+    <channel update="i" site="tvkingdom.jp" site_id="23##10##123608" xmltv_id="ＴＯＫＹＯＭＸ１">ＴＯＫＹＯＭＸ１</channel>
+    <channel update="i" site="tvbox.qmap.tw" site_id="animax" xmltv_id="ANIMAX動漫台">ANIMAX動漫台</channel>
+</settings>
