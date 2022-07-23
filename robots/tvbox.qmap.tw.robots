@@ -1,0 +1,8 @@
+﻿User-Agent: *
+Disallow:
+
+User-Agent: sogou spider
+Disallow: /
+
+User-Agent: * 
+

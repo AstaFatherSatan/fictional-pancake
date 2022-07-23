@@ -1,0 +1,1281 @@
+﻿[        ] 
+[        ]            WebGrab+Plus/w MDB & REX Postprocess -- version  V3.2.0.0            
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 23/07/2022 02:22:34
+[  Debug ] 
+[  Debug ] Running  on: Unix 5.4.0.1086
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] Mono version: 6.12.0.182 (tarball Tue Jun 14 22:29:01 UTC 2022)
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: timezone.timezonesdata.txt
+[  Debug ] Reading config file: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./WebGrab++.config.xml
+[  Info  ] Checking License ..
+[  Info  ] For License request/update data, see WGLicense.log.txt
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Japan/skyperfect.co.jp.ini -- Revision 01
+[  Info  ] encrypted in 'new (V3)' mode
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Indonesia/transvision.co.id.ini -- Revision 06
+[  Info  ] encrypted in 'new (V3)' mode
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Germany/m.tvtoday.de.ini -- Revision 10
+[Warning ] SiteIni debug arguments disabled due to License settings
+[  Info  ] See WGLicense.log.txt for license details
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Japan/tvguide.myjcom.jp.ini -- Revision 01
+[  Info  ] encrypted in 'new (V3)' mode
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Japan/tvkingdom.jp.ini -- Revision 04
+[  Debug ] 
+[  Info  ] found: /home/runner/work/fictional-pancake/fictional-pancake/.wg++/./siteini.pack/Taiwan/tvbox.qmap.tw.ini -- Revision 00
+[  Info  ] input file /home/runner/work/fictional-pancake/fictional-pancake/.wg++/guide.xml not found   ... created a new one ... 
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 90 - out of - 90 - channels for 3 day(s)
+[  Debug ] 
+[  Info  ] (   1/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS193ＷＯＷＯＷシネマ) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   2/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS200スターチャンネル１) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "SEOBOK/ソボク"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【最新作】SEOBOK/ソボク"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "EMMA　エマ"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【最新作】EMMA　エマ"
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   3/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS201スターチャンネル２) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   4/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS202スターチャンネル３) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "SEOBOK/ソボク"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【最新作】SEOBOK/ソボク"
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   5/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS252シネフィルWOWOW) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   6/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS255日本映画専門チャンネル) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "パラサイト 半地下の家族<PG-12>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "パラサイト 半地下の家族"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ベイビーわるきゅーれ<PG-12>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "ベイビーわるきゅーれ"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "キャラクター<PG-12>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "キャラクター"
+[  Info  ] 
+[  Info  ]    Summary for update of       BS255日本映画専門チャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           39
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        39
+
+[  Debug ] 
+[  Info  ] (   7/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS218東映チャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS218東映チャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           56
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        56
+
+[  Debug ] 
+[  Info  ] (   8/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS219衛星劇場) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "落語◆柳家喜三郎"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "落語◆柳家喜三郎「あくび指南」"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "舞台　▼久本雅美、藤原紀香"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "舞台「毒薬と老嬢」　▼久本雅美、藤原紀香"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS219衛星劇場
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           53
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        53
+
+[  Debug ] 
+[  Info  ] (   9/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS223映画・チャンネルNECO) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "スキップ・トレース"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "スキップ・トレース【日本語吹替え版】"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS223映画・チャンネルNECO
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           33
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        33
+
+[  Debug ] 
+[  Info  ] (  10/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS227ザ・シネマ) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  11/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS240ムービープラス) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "スパイダーマン：ホームカミング◆吹替：榎木淳弥◆"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "スパイダーマン：ホームカミング【日本語吹替版】◆吹替：榎木淳弥◆"
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  12/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS242J SPORTS 1) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS242J SPORTS 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           26
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        26
+
+[  Debug ] 
+[  Info  ] (  13/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS243J SPORTS 2) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS243J SPORTS 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           37
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        37
+
+[  Debug ] 
+[  Info  ] (  14/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS244J SPORTS 3) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS244J SPORTS 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           43
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        43
+
+[  Debug ] 
+[  Info  ] (  15/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS245J SPORTS 4) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS245J SPORTS 4
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           50
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        50
+
+[  Debug ] 
+[  Info  ] (  16/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS250スカイA) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS250スカイA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           73
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        73
+
+[  Debug ] 
+[  Info  ] (  17/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS254GAORA SPORTS) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS254GAORA SPORTS
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           54
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        54
+
+[  Debug ] 
+[  Info  ] (  18/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS257日テレジータス) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS257日テレジータス
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           32
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        32
+
+[  Debug ] 
+[  Info  ] (  19/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS262ゴルフネットワーク) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS262ゴルフネットワーク
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           56
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        56
+
+[  Debug ] 
+[  Info  ] (  20/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS800スポーツライブ＋) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS800スポーツライブ＋
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           51
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        51
+
+[  Debug ] 
+[  Info  ] (  21/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS321100%ヒッツ！スペースシャワーTV プラス) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS321100%ヒッツ！スペースシャワーTV プラス
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           49
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        49
+
+[  Debug ] 
+[  Info  ] (  22/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS322音楽・ライブ！スペースシャワーＴＶ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "特番▼ 最速試聴会！▼司会：粗品"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【独占】特番▼ 最速試聴会！▼司会：粗品"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS322音楽・ライブ！スペースシャワーＴＶ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           32
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        32
+
+[  Debug ] 
+[  Info  ] (  23/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS323MTV) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS323MTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           32
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        32
+
+[  Debug ] 
+[  Info  ] (  24/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS324ミュージック・エア) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS324ミュージック・エア
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           71
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        71
+
+[  Debug ] 
+[  Info  ] (  25/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS325MUSIC ON! TV（エムオン!）) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS325MUSIC ON! TV（エムオン!）
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           32
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        32
+
+[  Debug ] 
+[  Info  ] (  26/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS329歌謡ポップスチャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS329歌謡ポップスチャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           50
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        50
+
+[  Debug ] 
+[  Info  ] (  27/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS236アニマックス) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "頭文字Ｄ<HD> 一挙放送(2)第14～26話"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "頭文字Ｄ 一挙放送(2)第14～26話"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期)<HDリマスター> #15,16"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期) #15,16"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期)<HD> ベストセレクション"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期) ベストセレクション"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期)<HD> ベストセレクション"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "ちびまる子ちゃん(第1期) ベストセレクション"
+[  Info  ] 
+[  Info  ]    Summary for update of       BS236アニマックス
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           58
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        58
+
+[  Debug ] 
+[  Info  ] (  28/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS330キッズステーション テレビアニメ･劇場版･ＯＶＡ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS330キッズステーション テレビアニメ･劇場版･ＯＶＡ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           75
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        75
+
+[  Debug ] 
+[  Info  ] (  29/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS331海外アニメ！カートゥーン ネットワーク) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS331海外アニメ！カートゥーン ネットワーク
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           96
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        96
+
+[  Debug ] 
+[  Info  ] (  30/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS333アニメシアターX(AT-X)) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS333アニメシアターX(AT-X)
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           70
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        70
+
+[  Debug ] 
+[  Info  ] (  31/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS191ＷＯＷＯＷプライム) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "連続ドラマW　松本清張　"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "連続ドラマW　松本清張「眼の壁」"
+[  Info  ] 
+[  Info  ]    Summary for update of       BS191ＷＯＷＯＷプライム
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           52
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        52
+
+[  Debug ] 
+[  Info  ] (  32/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS192ＷＯＷＯＷライブ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS192ＷＯＷＯＷライブ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           30
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        30
+
+[  Debug ] 
+[  Info  ] (  33/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS241ＢＳスカパー！) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "全日本プロレス 2022.5.4後楽園ホール<2H版>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "全日本プロレス 2022.5.4後楽園ホール"
+[  Info  ] 
+[  Info  ]    Summary for update of       BS241ＢＳスカパー！
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           49
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        49
+
+[  Debug ] 
+[  Info  ] (  34/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS256ディズニー･チャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS256ディズニー･チャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           104
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        104
+
+[  Debug ] 
+[  Info  ] (  35/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS296ＴＢＳチャンネル１ 最新ドラマ・音楽・映画) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "BEHIND THE SHOW #116<字幕>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "BEHIND THE SHOW #116"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "BEHIND THE SHOW #150<字幕>"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "BEHIND THE SHOW #150"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS296ＴＢＳチャンネル１ 最新ドラマ・音楽・映画
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           69
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        69
+
+[  Debug ] 
+[  Info  ] (  36/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS297ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "落語研究会林家正蔵、春風亭一之輔 ほか"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "落語研究会「一眼国」林家正蔵、春風亭一之輔 ほか"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS297ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           62
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        62
+
+[  Debug ] 
+[  Info  ] (  37/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS298テレ朝チャンネル１ドラマ・バラエティ・アニメ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS298テレ朝チャンネル１ドラマ・バラエティ・アニメ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           61
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        61
+
+[  Debug ] 
+[  Info  ] (  38/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS299テレ朝チャンネル２ニュース・情報・スポーツ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS299テレ朝チャンネル２ニュース・情報・スポーツ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           42
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        42
+
+[  Debug ] 
+[  Info  ] (  39/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS300日テレプラスドラマ・アニメ・音楽ライブ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "タイドラマ 一挙放送 #1～4"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】タイドラマ 一挙放送 #1～4"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "タイドラマ 一挙放送 #5～7"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】タイドラマ 一挙放送 #5～7"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "タイドラマ 一挙放送 #8～10"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】タイドラマ 一挙放送 #8～10"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "タイドラマ 一挙放送 #11～13(最終回)"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】タイドラマ 一挙放送 #11～13(最終回)"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "中国ドラマ #38"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】中国ドラマ #38"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "中国ドラマ #21"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】中国ドラマ #21"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ #10"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】韓国ドラマ #10"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ #11"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】韓国ドラマ #11"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "中国ドラマ #20"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】中国ドラマ #20"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ #7"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】韓国ドラマ #7"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ #7"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【字】韓国ドラマ #7"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS300日テレプラスドラマ・アニメ・音楽ライブ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           59
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        59
+
+[  Debug ] 
+[  Info  ] (  40/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS301エンタメ～テレ☆シネドラバラエティ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS301エンタメ～テレ☆シネドラバラエティ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           66
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        66
+
+[  Debug ] 
+[  Info  ] (  41/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS305チャンネル銀河歴史ドラマ・サスペンス・日本のうた) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS305チャンネル銀河歴史ドラマ・サスペンス・日本のうた
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           53
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        53
+
+[  Debug ] 
+[  Info  ] (  42/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS307フジテレビＯＮＥスポーツ・バラエティ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "寺門ジモンの肉専門チャンネル　#97"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "寺門ジモンの肉専門チャンネル　#97「アルデバラン」"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS307フジテレビＯＮＥスポーツ・バラエティ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           53
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        53
+
+[  Debug ] 
+[  Info  ] (  43/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS308フジテレビＴＷＯドラマ・アニメ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#11　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#11　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#12　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#12　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#13　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#13　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#14　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#14　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#15　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#15　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#16　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#16　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#17　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#17　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#18　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#18　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#19　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#19　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#20　　（全123話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「黒薔薇の家」#20　　（全123話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#4　　（全8話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「ラブシーン・ナンバー＃」#4　　（全8話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#9　　（全16話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「昼と夜」#9　　（全16話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#10　　（全16話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「昼と夜」#10　　（全16話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#47　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#47　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#48　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#48　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#49　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#49　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#50　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#50　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#51　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#51　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#52　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#52　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#53　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#53　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#54　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#54　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#55　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#55　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#56　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#56　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#57　　（全122話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「素晴らしい遺産」#57　　（全122話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#8　　（全10話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「サーチ ～運命の分岐点～」#8　　（全10話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#97　　（全120話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「逆転のマーメイド」#97　　（全120話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#98　　（全120話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「逆転のマーメイド」#98　　（全120話）"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓国ドラマ#99　　（全120話）"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓国ドラマ「逆転のマーメイド」#99　　（全120話）"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS308フジテレビＴＷＯドラマ・アニメ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           104
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        104
+
+[  Debug ] 
+[  Info  ] (  44/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS309フジテレビＮＥＸＴライブ・プレミアム) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS309フジテレビＮＥＸＴライブ・プレミアム
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           42
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        42
+
+[  Debug ] 
+[  Info  ] (  45/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS801スカチャン1) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "悪の心を読む者たち #12"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【KNTV】悪の心を読む者たち #12"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "明日は国民歌手 #5-2"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【KNTV】明日は国民歌手 #5-2"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "赤と黒 #17"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【KNTV】赤と黒 #17"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS801スカチャン1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           48
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        48
+
+[  Debug ] 
+[  Info  ] (  46/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS310スーパー！ドラマＴＶ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS310スーパー！ドラマＴＶ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           67
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        67
+
+[  Debug ] 
+[  Info  ] (  47/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS311ＡＸＮ 海外ドラマ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS311ＡＸＮ 海外ドラマ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           46
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        46
+
+[  Debug ] 
+[  Info  ] (  48/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS312FOX) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #14"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #14"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #15"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #15"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #16"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #16"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #17"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #17"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #18"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #18"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #19"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #19"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #20"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #20"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #21"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #21"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        " #22"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "「ゴースト ～天国からのささやき シーズン2」 #22"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS312FOX
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           63
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        63
+
+[  Debug ] 
+[  Info  ] (  49/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS314女性チャンネル♪LaLa TV) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "華◆万華楼<ばんかろう>～金糸が紡ぐ運命の恋～"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "華◆万華楼～金糸が紡ぐ運命の恋～"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS314女性チャンネル♪LaLa TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           56
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        56
+
+[  Debug ] 
+[  Info  ] (  50/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS316AXNミステリー) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS316AXNミステリー
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           43
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        43
+
+[  Debug ] 
+[  Info  ] (  51/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS317KBS World) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS317KBS World
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           47
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        47
+
+[  Debug ] 
+[  Info  ] (  52/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS318Ｍｎｅｔ) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS318Ｍｎｅｔ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           69
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        69
+
+[  Debug ] 
+[  Info  ] (  53/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS290TAKARAZUKA SKY STAGE) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS290TAKARAZUKA SKY STAGE
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           62
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        62
+
+[  Debug ] 
+[  Info  ] (  54/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS292時代劇専門チャンネル) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "日本映画専門チャンネルpresentsのすべて"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【無料】日本映画専門チャンネルpresentsのすべて"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "日本映画専門チャンネルpresentsのすべて"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【無料】日本映画専門チャンネルpresentsのすべて"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "日本映画専門チャンネルの作品紹介"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【無料】日本映画専門チャンネルの作品紹介"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS292時代劇専門チャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           55
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        55
+
+[  Debug ] 
+[  Info  ] (  55/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS293ファミリー劇場) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS293ファミリー劇場
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           33
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        33
+
+[  Debug ] 
+[  Info  ] (  56/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS294ホームドラマチャンネル韓流・時代劇・国内ドラマ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "映画公開記念特番　▼岩本照（Snow Man）、生見愛瑠"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【無料】映画公開記念特番　▼岩本照（Snow Man）、生見愛瑠"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓◆週刊K-POPアイドル"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓◆【BTS出演回】週刊K-POPアイドル"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓◆週刊K-POPアイドル"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓◆【BTS出演回】週刊K-POPアイドル"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "韓◆週刊K-POPアイドル"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "韓◆【BTS出演回】週刊K-POPアイドル"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS294ホームドラマチャンネル韓流・時代劇・国内ドラマ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           46
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        46
+
+[  Debug ] 
+[  Info  ] (  57/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS295MONDO TV) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS295MONDO TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           74
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        74
+
+[  Debug ] 
+[  Info  ] (  58/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS340ディスカバリーチャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS340ディスカバリーチャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           69
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        69
+
+[  Debug ] 
+[  Info  ] (  59/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS341アニマルプラネット) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ドバイの大自然(二)"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【野生の王国アワー】ドバイの大自然(二)"
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ドバイの大自然(二)"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【野生の王国アワー】ドバイの大自然(二)"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS341アニマルプラネット
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           70
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        70
+
+[  Debug ] 
+[  Info  ] (  60/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS342ヒストリーチャンネル 日本・世界の歴史＆エンタメ) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "サウンドブレイキング レコーディングの神秘 #3～#6"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "【一挙】サウンドブレイキング レコーディングの神秘 #3～#6"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS342ヒストリーチャンネル 日本・世界の歴史＆エンタメ
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           51
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        51
+
+[  Debug ] 
+[  Info  ] (  61/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS343ナショナル ジオグラフィック 未知の自然・宇宙・歴史) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS343ナショナル ジオグラフィック 未知の自然・宇宙・歴史
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           61
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        61
+
+[  Debug ] 
+[  Info  ] (  62/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS349日テレNEWS24) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS349日テレNEWS24
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           33
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        33
+
+[  Debug ] 
+[  Info  ] (  63/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS351TBS NEWS) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS351TBS NEWS
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           17
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        17
+
+[  Debug ] 
+[  Info  ] (  64/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS251ＢＳ釣りビジョン) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS251ＢＳ釣りビジョン
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           66
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        66
+
+[  Debug ] 
+[  Info  ] (  65/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS339ディズニージュニア) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "ミッキーマウスとロードレーサーズ#40"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "プロ野球2022 オリックス×福岡ソフトバンク(7/23)"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS339ディズニージュニア
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           119
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        119
+
+[  Debug ] 
+[  Info  ] (  66/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS363囲碁・将棋チャンネル) -- mode Force
+[  Debug ]    suspicious      title in index page
+[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
+[  Debug ]        index title(s):
+[  Debug ]                        "囲碁）記憶の一局No.228"
+[  Debug ]  (sub)detail title(s):
+[  Debug ]                        "おとぎのもりのゴールディとベア#23"
+[  Info  ] 
+[  Info  ]    Summary for update of       CS363囲碁・将棋チャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           83
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        83
+
+[  Debug ] 
+[  Info  ] (  67/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=BS234グリーンチャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       BS234グリーンチャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           55
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        55
+
+[  Debug ] 
+[  Info  ] (  68/90  ) SKYPERFECT.CO.JP -- chan. (xmltv_id=CS055ショップチャンネル) -- mode Force
+[  Info  ] 
+[  Info  ]    Summary for update of       CS055ショップチャンネル
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           60
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        60
+
+[  Debug ] 
+[  Info  ] (  69/90  ) TRANSVISION.CO.ID -- chan. (xmltv_id=AnimaxAsia) -- mode Force
+[Warning ] no robots data found
+[Warning ] skipped robots check
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  70/90  ) TRANSVISION.CO.ID -- chan. (xmltv_id=AniPlusAsia) -- mode Force
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  71/90  ) M.TVTODAY.DE -- chan. (xmltv_id=ANIXE) -- mode Force
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  72/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＮＨＫＢＳ１) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  73/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＮＨＫＢＳプレミアム) -- mode Force
+[  Debug ]    skipped negative show time! at 24/07/2022 04:00:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  74/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＢＳ－ＴＢＳ) -- mode Force
+[  Debug ]    skipped negative show time! at 24/07/2022 03:00:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  75/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=TOKYOMX) -- mode Force
+[  Debug ]    skipped negative show time! at 25/07/2022 02:30:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  76/90  ) TVKINGDOM.JP -- chan. (xmltv_id=ＴＢＳ) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  77/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=テレビ朝日) -- mode Force
+[  Debug ]    skipped : show that happened before 'today' @ 22/07/2022 23:15
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  78/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=テレビ東京) -- mode Force
+[  Debug ]    skipped : show that happened before 'today' @ 22/07/2022 23:58
+[  Debug ]    skipped negative show time! at 25/07/2022 03:10:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  79/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=BSテレ東) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  80/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=フジテレビ) -- mode Force
+[  Debug ]    skipped : show that happened before 'today' @ 22/07/2022 23:40
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  81/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=釣りビジョンHD) -- mode Force
+[  Debug ]    skipped negative show time! at 24/07/2022 04:00:00
+[  Debug ]    skipped negative show time! at 25/07/2022 04:00:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  82/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＢＳフジ・181) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  83/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＢＳ朝日１) -- mode Force
+[  Debug ]    skipped negative show time! at 25/07/2022 02:30:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  84/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=ＢＳ日テレ) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  85/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=NHKワールド JAPAN) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  86/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=NHK東京教育) -- mode Force
+[  Debug ]    skipped negative show time! at 24/07/2022 01:25:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  87/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=NHK東京総合) -- mode Force
+[  Debug ]    skipped : show that happened before 'today' @ 22/07/2022 23:45
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  88/90  ) TVGUIDE.MYJCOM.JP -- chan. (xmltv_id=日本テレビ) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  89/90  ) TVBOX.QMAP.TW -- chan. (xmltv_id=ANIMAX動漫台) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  90/90  ) TVKINGDOM.JP -- chan. (xmltv_id=ＴＯＫＹＯＭＸ１) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Debug ] 6704 shows in 90 channels
+[  Debug ] 0 updated shows
+[  Debug ] 6704 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 23/07/2022 03:49:43 done in 1h 27m 9s

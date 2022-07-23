@@ -1,0 +1,16 @@
+#  Hot_Cookies, saved for the purpose of an actual WebGrab run
+#  Saved by WG++ 23/07/2022 03:49
+#  Response cookie from url :https://www.tvkingdom.jp/schedule/123608202207252330.action
+
+www.tvkingdom.jp	FALSE	/	FALSE	0	JSESSIONID	1BB285F44CA69BBC59658E81DCEF5025.tv-web71
+www.tvkingdom.jp	FALSE	/	TRUE	1690080557	guestId	4640cb6cb744cc007
+www.tvkingdom.jp	FALSE	/	TRUE	1658630957	gtv.chartBalloon.date.20220723	disabled
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.span	24
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.chartWidth	950
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.cellHeight	5
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.sticky	false
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.iepgType	1
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.buttonType	0
+www.tvkingdom.jp	FALSE	/	TRUE	1690080558	gtv.descriptive	false
+www.tvkingdom.jp	FALSE	/	TRUE	1658630958	gtv.chartBalloon.date.20220724	disabled
+www.tvkingdom.jp	FALSE	/	TRUE	1658630958	gtv.chartBalloon.date.20220725	disabled
